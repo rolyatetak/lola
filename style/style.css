@@ -1,0 +1,440 @@
+body {
+  font-family: Work Sans;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #333333;
+  width: 100%;
+}
+
+header {
+  overflow: hidden;
+  padding: 20px;
+  background-color: #2f6a49;
+}
+
+header h1 {
+  float: left;
+}
+
+h1 img {
+  width: 140px;
+}
+
+header nav {
+  float: right;
+  margin-top: 3px;
+}
+
+nav a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 30px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #ffb6c4;
+}
+
+.hero {
+  background-image: url(header-background.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero div {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 275px;
+  padding-bottom: 255px;
+}
+
+.hero h2 {
+  font-size: 80px;
+  line-height: 1;
+  color: #fe5504;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about {
+  background-color: #ffb6c4;
+}
+
+.about div {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 36px;
+  color: #2f6a49;
+  padding-top: 50px;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 26px;
+  line-height: 1.15;
+  color: #2f6a49;
+  padding-bottom: 75px;
+}
+
+.food {
+  background-color: #ffda00;
+  overflow: hidden;
+}
+
+.food div {
+  float: left;
+  width: 50%;
+}
+
+.food h4 {
+  margin-bottom: 30px;
+  color: #2f6a49;
+  font-size: 26px;
+}
+
+div.foodtext {
+  padding: 60px 90px 50px 90px;
+  width: 100%;
+}
+
+.food p {
+  max-width: 430px;
+  color: #2f6a49;
+}
+
+.quote {
+  background-color: #ffd7b3;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  color: #2f6a49;
+  text-align: center;
+  max-width: 700px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images {
+  overflow: hidden;
+}
+
+.images img {
+  float: left;
+  width: 33.3%;
+}
+
+.find-us {
+  overflow: hidden;
+  background-color: #2f6a49;
+}
+
+.find-us p {
+  color: #ffb6c4;
+  padding-bottom: 20px;
+}
+
+.find-us .one,
+.find-us .two,
+.find-us .three {
+  float: left;
+  width: 33.3%;
+}
+
+.find,
+.image,
+.open {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+.image,
+.open {
+  max-width: 200px;
+}
+
+.two img {
+  border-radius: 100%;
+}
+
+.logos {
+  padding: 40px 20px 100px 20px;
+  text-align: center;
+}
+
+.logos img {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 150px;
+}
+
+.logos p {
+  color: #fe5504;
+  padding-bottom: 60px;
+}
+
+.nyt {
+  margin-bottom: 10px;
+}
+
+.logos img:last-child {
+  width: 225px;
+}
+
+footer {
+  background-color: #ffb6c4;
+  overflow: hidden;
+  padding: 20px;
+}
+
+footer img {
+  float: left;
+  width: 140px;
+}
+
+footer p {
+  float: right;
+  font-size: 16px;
+  color: #2f6a49;
+  padding-top: 4px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1010px) {
+  div.foodtext {
+    padding: 40px 50px 30px 50px;
+  }
+}
+
+@media (max-width: 930px) {
+  .logos img {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 870px) {
+  div.foodtext {
+    padding: 30px 40px 20px 40px;
+  }
+}
+
+@media (max-width: 780px) {
+  .about div {
+    max-width: 650px;
+  }
+
+  .about h3 {
+    font-size: 32px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .about p {
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+
+  .food div {
+    float: none;
+    width: 100%;
+  }
+
+  .food h4 {
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+
+  div.foodtext {
+    padding: 60px 90px 50px 90px;
+  }
+
+  .food p {
+    max-width: 700px;
+  }
+
+  .quote blockquote {
+    font-size: 32px;
+    max-width: 650px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .logos img {
+    margin: 0 auto 35px auto;
+    display: block;
+  }
+
+  .logos img:last-child {
+    margin-bottom: 0;
+  }
+
+  .logos p {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 680px) {
+  body {
+    font-size: 16px;
+  }
+
+  header nav {
+    line-height: 24px;
+  }
+
+  .hero h2 {
+    font-size: 60px;
+  }
+
+  .hero div {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 175px;
+    padding-bottom: 155px;
+  }
+
+  .food h4 {
+    font-size: 24px;
+  }
+
+  div.foodtext {
+    padding: 50px 70px 40px 70px;
+  }
+
+  .quote blockquote {
+    font-size: 28px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .about div {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .about h3 {
+    font-size: 28px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about p {
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  footer p {
+    font-size: 12px;
+    padding-top: 8px;
+  }
+}
+
+@media (max-width: 530px) {
+  header h1,
+  header nav {
+    float: none;
+  }
+
+  header nav a {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+
+  .hero div {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
+
+  .hero h2 {
+    font-size: 44px;
+  }
+
+  .about div {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .about h3 {
+    font-size: 26px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about p {
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  .food h4 {
+    font-size: 22px;
+  }
+
+  div.foodtext {
+    padding: 40px 50px 30px 50px;
+  }
+
+  .quote blockquote {
+    font-size: 26px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .images img {
+    float: none;
+    width: auto;
+  }
+
+  .find-us .one,
+  .find-us .two,
+  .find-us .three {
+    float: none;
+    width: auto;
+  }
+
+  .find,
+  .image,
+  .open {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    padding: 25px 0 25px 0;
+    text-align: center;
+  }
+
+  .image {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  footer {
+    padding: 30px 20px;
+  }
+}
